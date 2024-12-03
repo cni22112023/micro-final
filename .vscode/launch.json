@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DemoConfigRegistryApplication",
+            "request": "launch",
+            "mainClass": "tn.cni.demo_config_registry.DemoConfigRegistryApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "RegistryServerApplication",
             "request": "launch",
             "mainClass": "tn.cni.registry_server.RegistryServerApplication",
