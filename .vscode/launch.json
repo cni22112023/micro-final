@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MicroOneApplication",
+            "request": "launch",
+            "mainClass": "tn.cni.micro_one.MicroOneApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "DemoRegistryApplication",
             "request": "launch",
             "mainClass": "tn.cni.demo_registry.DemoRegistryApplication",
@@ -53,6 +60,26 @@
             "args": "",
             "envFile": "${workspaceFolder}/.env",
             "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=41371 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=demo-config-registry"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoRegistryApplication<demo-registry>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tn.cni.demo_registry.DemoRegistryApplication",
+            "projectName": "demo-registry",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MicroOneApplication<micro-one>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tn.cni.micro_one.MicroOneApplication",
+            "projectName": "micro-one",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
