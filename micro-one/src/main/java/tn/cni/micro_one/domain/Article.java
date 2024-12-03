@@ -1,4 +1,4 @@
-package tn.cni.micro_one;
+package tn.cni.micro_one.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
